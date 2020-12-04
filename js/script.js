@@ -1,7 +1,6 @@
 function calculateGrainYield(){
     let inchesRain = Math.round(prompt("How many inches of rain fell?"));
-    // .repeat not supported in IE accding to MDN..
-        //  console.log(`Inches of rain: ${"*".repeat(inchesRain)}`);
+  
     let rainDrops ="";
     for (i=0; i< inchesRain; i++){
         rainDrops += "*";
